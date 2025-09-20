@@ -1,2 +1,2 @@
 # AWS_Langflow_Quizz
-Quizz for AWS SA
+Quizz for AWS CloudPractioner Exam
