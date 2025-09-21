@@ -11,23 +11,17 @@ It provides a 10-question quiz designed to help users practice for the AWS Cloud
 > Built using Langflow for LLM orchestration
 
 # **🧠 About the Project**
+This project demonstrates how to build an AI-driven quiz generator using the Langflow framework.
+The workflow is designed to show how external knowledge retrieval, reasoning, and LLM inference can be combined to create meaningful outputs.
 
-> This project demonstrates how to build an AI workflow using the Langflow framework.
-It leverages:
+Specifically, the app:
 
-> Vector database (Astra DB) → to store and retrieve contextual information
+> Ingests domain-specific documents related to AWS.
 
-> LLM provider (Groq) → to dynamically generate multiple-choice quiz questions
+> Stores them in a vector database (Astra DB) for contextual search.
 
-> By combining these, the app creates a context-aware quiz generator tailored to the AWS Cloud Practitioner Exam.
+> Uses an LLM provider (Groq) to generate multiple-choice questions dynamically.
 
-# **Goal**
-> The primary goal of this project is to:
+> Presents a 10-question AWS Cloud Practitioner quiz as a proof of concept.
 
-> Ingest domain-specific documents
-
-> Use them as contextual knowledge for an LLM prompt
-
-> Automatically generate a set of MCQs (Multiple Choice Questions) as a quiz
-
-> Demonstrate an AI workflow where external knowledge retrieval, reasoning, and LLM inference are combined seamlessly
+The goal is to illustrate how AI workflows can seamlessly combine document ingestion, context retrieval, and large language model reasoning to create practical applications for exam prep and learning.
